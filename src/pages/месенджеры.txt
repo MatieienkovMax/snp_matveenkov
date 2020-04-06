@@ -1,0 +1,13 @@
+
+
+
+
+"WhatsApp" href="whatsapp://send?phone=+120345678910">WhatsApp</a>
+ 
+//ДЛЯ ПРИЛОЖЕНИЯ VIBER НА ПК
+<a title="Viber" href="viber://chat?number=+120345678910">Viber</a>
+ 
+//ДЛЯ ПРИЛОЖЕНИЯ VIBER НА МОБИЛЬНЫХ
+<a title="Viber" href="viber://add?number=120345678910">Viber</a>
+ 
+<a title="Telegram" href="tg://resolve?domain=nikname">Telegram</a

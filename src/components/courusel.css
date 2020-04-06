@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* .controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.corusel_left,
+.corusel_right {
+  color: #1e4426;
+  position: absolute;
+  top: 50%;
+  padding: 12px;
+  font-size: 48px;
+  background: transparent;
+  border: none;
+  transform: translateY(50%)
+}
+.corusel_right{
+  right: 0;
+}
+.corusel_left{
+  left: 0;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  transition: 0.3s;
+}
+
+
+.content .gatsby-image-wrapper {
+  height: 100%;
+  width: 100%;
+}
