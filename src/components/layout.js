@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Nav />
-      <Header />
+      
       <main>
         { children }
       </main>

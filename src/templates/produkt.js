@@ -25,7 +25,7 @@ const ProductPage = ({ data }) => (
                   <h4 >Основное</h4>
           </label>
          <section className='discription'>
-            <p dangerouslySetInnerHTML={ {__html: data.strapiProdukts.discription} } />
+            <ul dangerouslySetInnerHTML={ {__html: data.strapiProdukts.discription} } />
          </section>
          <input type="radio" name="rove" id="specification_bottum"/>
               <label  id="tab-2" for="specification_bottum">
@@ -33,7 +33,7 @@ const ProductPage = ({ data }) => (
                </label>
          <section className='specification'>
              
-          <p dangerouslySetInnerHTML={ {__html: data.strapiProdukts.specification} } />
+          <ul dangerouslySetInnerHTML={ {__html: data.strapiProdukts.specification} } />
          </section>
          <input type="radio" name="rove" id="contraindications_bottum"/>
               <label  id="tab-3" for="contraindications_bottum">

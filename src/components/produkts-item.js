@@ -45,7 +45,7 @@ render={data => (
                       </Link>
                       <figcaption className='cost'>Цена: { node.cost }$</figcaption>
                     </figure>
-                    <p dangerouslySetInnerHTML={ { __html: node.specification } }></p>
+                    <ul dangerouslySetInnerHTML={ { __html: node.specification } } />
                 </div>
             ) )
         }
