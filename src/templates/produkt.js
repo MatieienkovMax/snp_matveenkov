@@ -18,7 +18,6 @@ const ProductPage = ({ data }) => (
         alt={ data.strapiProdukts.title }
         className='produkt_page_img'/>
         <p className='cost produkt_page_item '>Цена: { data.strapiProdukts.cost } $</p>
-        <div className='decor'></div>
        <div className='produkt_page_description'>
           <input type="radio" name="rove" id="discription_bottum" />
           <label  id="tab-1"  for="discription_bottum">

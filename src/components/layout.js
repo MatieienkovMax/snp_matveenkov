@@ -18,7 +18,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Nav />
-      
+      <Header />
+      <div className='fics'>fixet text</div>
       <main>
         { children }
       </main>
