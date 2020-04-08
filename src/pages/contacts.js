@@ -2,11 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+
+import A1 from '.././images/a1.png'
+import MTS from '.././images/mts.png'
 
 const PageContacts = () => (
   <Layout>
+    <div className='fics'></div>
     <h1>Конакты</h1>
     <section className="contakt_conteiner">
       <div className="adress">
@@ -25,7 +27,6 @@ const PageContacts = () => (
         <a title='Позвонить' href='tel:+375297879787'>
           +375-(29)-787-97-87
         </a>
-        <h3>Мэсенджер:</h3>
         <a href='https://api.whatsapp.com/send?phone=375296668881'>
           WhatsApp
         </a>

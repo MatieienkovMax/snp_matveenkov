@@ -21,7 +21,7 @@ const PageHome = ( ) => (
       <div  className='carusel_item carusel_item_two'>
         <h2>Новинка!<br/> Петля гисона
         </h2>
-        <Link to='/'>
+        <Link to='/petla_gisona'>
               <button className="to_produkt">
                   Подробнее 1
               </button>

@@ -17,6 +17,9 @@ import FBicon from '.././images/fb.svg'
 const Layout = ({ children }) => {
   return (
     <>
+      <head>
+       <script src="//code.jivosite.com/widget/X78Ckc9s2K" async></script>
+      </head>
       <Nav />
       <Header />
       <div className='fics'>fixet text</div>
@@ -29,7 +32,7 @@ const Layout = ({ children }) => {
         </p>
         <a href="https://www.facebook.com/groups/Spinenopain/?ref=bookmarks" >
              <img src={FBicon} />
-          </a>
+        </a>
       </footer>
     </>
   )

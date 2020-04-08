@@ -11,6 +11,7 @@ const ProductPage = ({ data }) => (
     discription: data.strapiProdukts.discription,
   }}>
     <section className='produkt_page_wrapper'>
+    <div className='fics'></div>
         <h2 className='produkt_page_title'>{data.strapiProdukts.title}</h2>
         <section className='content_page_produkt'>
         <IMG 

@@ -9,7 +9,7 @@ const Qestions = () => (
     <>
     
     <section className='qestions'>
-    <h3 className='qestions_title'>Часто задоваемые вопросы </h3>
+    <h3 className='qestions_title'>Часто задаваемые вопросы </h3>
         <input type="checkbox" 
                 name="rove" 
                 id="qestions_one_bottum" 
