@@ -6,7 +6,6 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Nav from "./nav"
@@ -14,12 +13,13 @@ import "./layout.css"
 import FBicon from '.././images/fb.svg'
 
 
+{/* <script src="//code.jivosite.com/widget/X78Ckc9s2K" async></script> */}
+
+
+
 const Layout = ({ children }) => {
   return (
     <>
-      <head>
-       <script src="//code.jivosite.com/widget/X78Ckc9s2K" async></script>
-      </head>
       <Nav />
       <Header />
       <div className='fics'>fixet text</div>
@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         <p>
           Мы в соцсетях:
         </p>
-        <a href="https://www.facebook.com/groups/Spinenopain/?ref=bookmarks" >
+        <a href="https://www.facebook.com/groups/Spinenopain/?ref=bookmarks"  rel="nofollow" >
              <img src={FBicon} />
         </a>
       </footer>

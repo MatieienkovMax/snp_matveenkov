@@ -1,7 +1,4 @@
 import React from "react"
-import { Link, graphql, StaticQuery } from "gatsby"
-
-import IMG from 'gatsby-image'
 
 
 

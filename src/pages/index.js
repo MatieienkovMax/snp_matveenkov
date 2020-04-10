@@ -21,9 +21,9 @@ const PageHome = ( ) => (
       <div  className='carusel_item carusel_item_two'>
         <h2>Новинка!<br/> Петля гисона
         </h2>
-        <Link to='/petla_gisona'>
+        <Link to='/'>
               <button className="to_produkt">
-                  Подробнее 1
+                  Подробнее
               </button>
         </Link>
       </div>
@@ -54,23 +54,23 @@ const PageHome = ( ) => (
 
 export default PageHome
 
-export const pageQuery = graphql`
-  query {
-    allFile(
-      filter: {
-        extension: { regex: "/(jpg)|(png)|(jpeg)/" }
-      }
-    ) {
-      edges {
-        node {
-          base
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  }
-`
+// export const pageQuery = graphql`
+//   query {
+//     allFile(
+//       filter: {
+//         extension: { regex: "/(jpg)|(png)|(jpeg)/" }
+//       }
+//     ) {
+//       edges {
+//         node {
+//           base
+//           childImageSharp {
+//             fluid {
+//               ...GatsbyImageSharpFluid
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `

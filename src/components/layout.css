@@ -41,10 +41,10 @@ a{
 
 .carusel_item{
   width: 100%;
-  height: 700px;
+  height: 800px;
 
   background-size: cover;
-  background-position: center;
+  background-position: 50% 1%;
   background-repeat: no-repeat;
 
   padding: 40px 20px;
@@ -56,7 +56,7 @@ a{
   height: 40%;
   justify-content: center;
   align-items: center;
-  color: #222531;
+  
   text-transform: uppercase;
   border-radius: 40deg;
   /* background-image: radial-gradient(#aaaaaa 0%,#fcfdfb 40%); */
@@ -67,6 +67,10 @@ a{
 }
 .carusel_item_two{
   background-image: url('.././images/gison.jpg');
+}
+.carusel_item_one>h2,
+.carusel_item_two>h2{
+  color: #222531;
 }
 main {
   flex: 1 1 auto;
@@ -148,6 +152,12 @@ nav ul li a,
 .produkt_page_item,
 .articl_page_title{
   text-align: center;
+}
+.articl_page_title{
+  margin-top: 20px;
+}
+.articl_page_content{
+  font-size: 110%;
 }
 .produkt_conteiner
 {
@@ -448,6 +458,27 @@ transform: rotate(45deg) ;
   border-right: 1px solid #177246;
 }
 .tel{
+  padding: 20px;
+}
+.tel a{
+  text-decoration: none;
+  outline: none;
+  color: #293630;
+}
+.a1_A{
+  color: #e60f0f;
+}
+.a1_one{
+  color: #000;
+}
+.WP_contakts{
+  color: #177246;
+}
+.mts{
+  background: #e60f0f;
+  color: rgb(255, 254, 254);
+  padding: 3px;
+  font-size: 80%;
 }
 .tel_icons{
   height: 25px;
@@ -455,7 +486,7 @@ transform: rotate(45deg) ;
 
 .google_map{
   width: 100%;
-  height:450px; 
+  height: 80vh; 
 }
 .contakt_conteiner,
 footer,
@@ -464,6 +495,7 @@ footer>a{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  justify-self: center;
   text-align: center;
   align-items: center;
 }
@@ -477,7 +509,7 @@ footer>a>img{
   margin-left: 10px;
   top: -10px;
 }
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 1039px){
   nav{
     margin-bottom: 10px;
   }
@@ -502,7 +534,7 @@ footer>a>img{
     flex-direction: column;
   }
   .carusel_item>h2{
-    margin-top: 5px;
+    margin-top: 24px;
     padding-left: 50px; 
     text-shadow: 0 0 15px #e7e6e6;
   }
@@ -530,42 +562,39 @@ footer>a>img{
     display: block;
     text-align: center;
     padding-bottom: 10px;
-}
-#smart_button:checked~label{
-  color: #e8eaff;
-}
+  }
+  #smart_button:checked~label{
+    color: #e8eaff;
+  }
 
-nav>ul{
-    display: none;
-}
-#smart_button:checked~ul,
-#smart_button_sub:checked~.sub_nav{
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  nav>ul{
+      display: none;
+  }
+  #smart_button:checked~ul,
+  #smart_button_sub:checked~.sub_nav{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .qestions label>h5,
+  .qestions_title{
     text-align: center;
-}
-.qestions label>h5,
-.qestions_title{
-  text-align: center;
-  width: 100%;
-  height: 100%;
-}
-#qestions_one_bottum:checked~.qestion_one_diskription,
-#qestions_two_bottum:checked~.qestion_two_diskription,
-#qestions_tree_bottum:checked~.qestion_tree_diskription,
-#qestions_for_bottum:checked~.qestion_for_diskription{
-  width: 80%;
- }
-#tab-3,
-#tab-2,
-#tab-1{
-  grid-column: 1/15;
-  position: inherit;
-  margin-top: 45px;
-}
-
-
-
+    width: 100%;
+    height: 100%;
+  }
+  #qestions_one_bottum:checked~.qestion_one_diskription,
+  #qestions_two_bottum:checked~.qestion_two_diskription,
+  #qestions_tree_bottum:checked~.qestion_tree_diskription,
+  #qestions_for_bottum:checked~.qestion_for_diskription{
+    width: 80%;
+  }
+  #tab-3,
+  #tab-2,
+  #tab-1{
+    grid-column: 1/15;
+    position: inherit;
+    margin-top: 45px;
+  }
 }
 

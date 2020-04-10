@@ -21,7 +21,7 @@ const Nav = () => (
       </Link>
       </li>
       <li>
-        <a href='https://api.whatsapp.com/send?phone=375296668881'>
+        <a href='https://api.whatsapp.com/send?phone=375296668881' rel="nofollow" >
           <img  className='nav_icons'  src={ Whatsapp } width='50'/>
           <sup>Напишите нам в<br/>Whatsapp</sup>
         </a>

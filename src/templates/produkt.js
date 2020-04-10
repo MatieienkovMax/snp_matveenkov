@@ -1,8 +1,8 @@
 import React from "react";
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from "../components/layout";
 import IMG from 'gatsby-image';
-import Arows from '.././images/arov-left.png'
+
 
 const ProductPage = ({ data }) => (
   <Layout 
@@ -12,7 +12,7 @@ const ProductPage = ({ data }) => (
   }}>
     <section className='produkt_page_wrapper'>
     <div className='fics'></div>
-        <h2 className='produkt_page_title'>{data.strapiProdukts.title}</h2>
+        <h2 className='produkt_page_title'>{ data.strapiProdukts.title }</h2>
         <section className='content_page_produkt'>
         <IMG 
         fluid={ data.strapiProdukts.img_produkt.childImageSharp.fluid } 
